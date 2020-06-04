@@ -121,4 +121,8 @@ body {
   height: auto !important;
 }
 
+canvas {
+  cursor: pointer;
+}
+
 /* custom css ends */

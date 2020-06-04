@@ -15,7 +15,11 @@ const PDFViewer = ({ file }) => {
       <FScreen>
         <div className="doc-container">
           <Document file={file} onLoadSuccess={onDocumentLoadSuccess}>
-            <Page pageNumber={pageNumber} className="custom-page" />
+            <Page
+              pageNumber={pageNumber}
+              className="custom-page"
+              renderTextLayer={false}
+            />
             <p className="nav-controls">
               <button
                 type="button"
