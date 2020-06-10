@@ -96,11 +96,11 @@ body {
 }
 
 .fullscreen-enabled {
-  overflow: scroll;
+  overflow: auto;
 }
 
 .fullscreen-enabled .doc-container {
-  overflow: scroll;
+  overflow: auto;
 }
 
 .fullscreen-enabled .nav-controls span {
@@ -116,7 +116,22 @@ body {
   bottom: 0;
 }
 
-.fullscreen-enabled canvas {
+.fullscreen-enabled .react-pdf__Document {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.fullscreen-enabled .react-pdf__Page {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.fullscreen-enabled .react-pdf__Page__svg {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.fullscreen-enabled svg {
   width: 100% !important;
   height: auto !important;
 }

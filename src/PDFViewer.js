@@ -19,6 +19,7 @@ const PDFViewer = ({ file }) => {
               pageNumber={pageNumber}
               className="custom-page"
               renderTextLayer={false}
+              renderMode="svg"
             />
             <p className="nav-controls">
               <button
