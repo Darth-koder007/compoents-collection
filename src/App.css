@@ -129,7 +129,7 @@ body {
 .fullscreen-enabled .react-pdf__Page__svg {
   width: 100% !important;
   height: auto !important;
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .fullscreen-enabled svg {
