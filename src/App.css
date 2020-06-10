@@ -136,6 +136,17 @@ body {
   height: auto !important;
 }
 
+.fullscreen-enabled {
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.fullscreen-enabled::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+}
+
 canvas {
   cursor: pointer;
 }
